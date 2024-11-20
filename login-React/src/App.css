@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1f1f1f;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 20px auto;
+  width: 30%;
+}
+.dashboard-container {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 20px auto;
+  width: 70%;
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+  outline: none;
+  font-weight: bold;
+  transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #007bff;
+}
+
+.primary-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #28a745;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid #a7a1a1;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-top: 8px;
+}
+
+.primary-button:hover {
+  background-color: #218838;
+}
+
+.unfocused-button {
+  width: 100%;
+  padding: 8px; /* Reduced padding from 10px to 8px */
+  background-color: #28a745;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid #a7a1a1;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px; /* Reduced font-size from 16px to 14px */
+  transition: background-color 0.3s ease;
+  margin-top: 8px;
+}
+
+.unfocused-button:hover {
+  background-color: #218838;
+}
+
+.error {
+  color: red;
+  margin-top: 8px; /* Reduced margin-top from 10px to 8px */
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.donate-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.donate-form img {
+  margin-bottom: 10px;
+}
+month {
+  margin: 13px;
+  padding: 9px 36px;
+  border-radius: 10px;
+}
+
+.upi-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.dashboard-container {
+  padding: 15px 10px;
+}
+
+table,
+th,
+td {
+  font-size: 13px;
+}
+
+.logout-button {
+  position: absolute;
+  top: 29px;
+  right: 16%;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.logout-button i {
+  margin-right: 10px;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+  font-size: medium;
+}
+
+th {
+  background-color: #1a7985;
+  color: white;
+}
+
+td {
+  background-color: #ffffff;
+}
+
+tbody tr:hover {
+  background-color: #f9f9fb;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  .dashboard-container {
+    padding: 20px 10px;
+  }
+
+  .logout-button {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+}
