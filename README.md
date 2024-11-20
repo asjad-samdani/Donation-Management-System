@@ -262,6 +262,7 @@ Authorization: Bearer <JWT_TOKEN>
   ├── /src
   │   ├── /controller
   │   ├── /model
+  │   ├── /dto
   │   ├── /repository
   │   ├── /security
   │   ├── /service
